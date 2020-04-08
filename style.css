@@ -12,7 +12,7 @@
 
 main{
 	width: 960px;
-	margin: 50px 0;
+	margin: 50px auto;
 }
 
 .article{
@@ -60,4 +60,50 @@ main{
 
 .title{
 	margin: 15px 0;
+	color: grey;
+}
+
+.text{
+	color: grey;
+}
+
+@media screen and (max-width: 768px){
+	main{
+		width: 100%;
+	}
+
+	.article{
+		float: none;
+		width: 90%;
+		margin: 0 auto 20px auto;
+	}
+
+	.article:last-child{
+		margin: 0 auto;
+	}
+
+	.step-num{
+		font-size: 35px;
+	}
+
+	.main-visual1{
+	height: 380px;
+	}
+
+	.main-visual2{
+	height: 380px;
+	}
+
+	.main-visual3{
+	height: 380px;
+	}
+
+	.title{
+		font-size: 30px;
+	}
+
+	.text{
+		font-size: 20px;
+	}
+
 }
